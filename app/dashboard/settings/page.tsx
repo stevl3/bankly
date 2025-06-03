@@ -42,13 +42,13 @@ export default function SettingsPage() {
                 <Avatar className="h-20 w-20">
                   <AvatarImage src="/placeholder.svg?height=80&width=80" />
                   <AvatarFallback className="bg-gradient-to-r from-[hsl(47.9,95.8%,53.1%)] to-[hsl(36,100%,50%)] text-slate-900 text-xl">
-                    ST
+                    DM
                   </AvatarFallback>
                 </Avatar>
                 <div>
                   <Button
                     variant="outline"
-                    className="border-slate-600 text-slate-300 hover:bg-slate-700"
+                    className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                   >
                     <Camera className="h-4 w-4 mr-2" />
                     Change Photo
@@ -67,7 +67,7 @@ export default function SettingsPage() {
                   </Label>
                   <Input
                     id="firstName"
-                    defaultValue="Steven"
+                    defaultValue="Demo"
                     className="bg-slate-700/50 border-slate-600 text-white"
                   />
                 </div>
@@ -77,7 +77,7 @@ export default function SettingsPage() {
                   </Label>
                   <Input
                     id="lastName"
-                    defaultValue="Thompson"
+                    defaultValue="User"
                     className="bg-slate-700/50 border-slate-600 text-white"
                   />
                 </div>
@@ -90,7 +90,7 @@ export default function SettingsPage() {
                 <Input
                   id="email"
                   type="email"
-                  defaultValue="steven.thompson@example.com"
+                  defaultValue="demo.user@example.com"
                   className="bg-slate-700/50 border-slate-600 text-white"
                 />
               </div>
@@ -189,7 +189,7 @@ export default function SettingsPage() {
                       <div>
                         <p className="text-white font-medium">GitHub</p>
                         <p className="text-slate-400 text-sm">
-                          Connected as steven-thompson
+                          Connected as demo-user
                         </p>
                       </div>
                     </div>
@@ -224,7 +224,7 @@ export default function SettingsPage() {
                       <div>
                         <p className="text-white font-medium">Google</p>
                         <p className="text-slate-400 text-sm">
-                          Connected as steven.thompson@gmail.com
+                          Connected as demo.user@example.com
                         </p>
                       </div>
                     </div>

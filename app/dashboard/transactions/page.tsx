@@ -132,14 +132,14 @@ export default function TransactionsPage() {
           <div className="flex items-center space-x-2">
             <Button
               variant="outline"
-              className="border-slate-600 text-slate-300 hover:bg-slate-700"
+              className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
             >
               <Download className="h-4 w-4 mr-2" />
               Export CSV
             </Button>
             <Button
               variant="outline"
-              className="border-slate-600 text-slate-300 hover:bg-slate-700"
+              className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
             >
               <Download className="h-4 w-4 mr-2" />
               Export PDF
@@ -215,7 +215,7 @@ export default function TransactionsPage() {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   <ArrowUpDown className="h-4 w-4 mr-2" />
                   Sort
@@ -223,7 +223,7 @@ export default function TransactionsPage() {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   <Filter className="h-4 w-4 mr-2" />
                   Filter
@@ -325,35 +325,35 @@ export default function TransactionsPage() {
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   Previous
                 </Button>
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   1
                 </Button>
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   2
                 </Button>
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   3
                 </Button>
                 <Button
                   variant="outline"
                   size="sm"
-                  className="border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   Next
                 </Button>

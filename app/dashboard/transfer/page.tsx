@@ -157,28 +157,28 @@ export default function TransferPage() {
               <CardContent className="space-y-2">
                 <Button
                   variant="outline"
-                  className="w-full justify-start border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="w-full justify-start border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   <CreditCard className="mr-2 h-4 w-4" />
                   Pay Credit Card
                 </Button>
                 <Button
                   variant="outline"
-                  className="w-full justify-start border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="w-full justify-start border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   <ArrowRight className="mr-2 h-4 w-4" />
                   Transfer to Savings
                 </Button>
                 <Button
                   variant="outline"
-                  className="w-full justify-start border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="w-full justify-start border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   <Send className="mr-2 h-4 w-4" />
                   External Transfer
                 </Button>
                 <Button
                   variant="outline"
-                  className="w-full justify-start border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="w-full justify-start border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   <User className="mr-2 h-4 w-4" />
                   Send to Friend

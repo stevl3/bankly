@@ -25,7 +25,7 @@ export default function DashboardPage() {
           <SidebarTrigger className="text-slate-300 hover:text-white" />
           <div className="ml-4">
             <h1 className="text-2xl font-semibold text-white">
-              Hello, Steven 👋
+              Hello, Demo 👋🏻
             </h1>
             <p className="text-slate-400">
               Welcome back to your financial dashboard
@@ -147,7 +147,7 @@ export default function DashboardPage() {
                 </CardTitle>
                 <Button
                   variant="outline"
-                  className="border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   View All
                 </Button>
@@ -213,19 +213,17 @@ export default function DashboardPage() {
               <CardContent className="p-6">
                 <div className="flex items-center space-x-3 mb-4">
                   <div className="w-12 h-12 bg-gradient-to-r from-[hsl(47.9,95.8%,53.1%)] to-[hsl(36,100%,50%)] rounded-full flex items-center justify-center">
-                    <span className="text-slate-900 font-semibold">ST</span>
+                    <span className="text-slate-900 font-semibold">DM</span>
                   </div>
                   <div>
-                    <h3 className="text-white font-semibold">
-                      Steven Thompson
-                    </h3>
-                    <p className="text-slate-400 text-sm">Premium Member</p>
+                    <h3 className="text-white font-semibold">Demo Account</h3>
+                    <p className="text-slate-400 text-sm">Basic Member</p>
                   </div>
                 </div>
                 <Button
                   variant="outline"
                   size="sm"
-                  className="w-full border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="w-full border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   Sign Out
                 </Button>
@@ -270,7 +268,7 @@ export default function DashboardPage() {
                 </GradientButton>
                 <Button
                   variant="outline"
-                  className="w-full justify-start border-slate-600 text-slate-300 hover:bg-slate-700"
+                  className="w-full justify-start border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                 >
                   <TrendingUp className="mr-2 h-4 w-4" />
                   View Reports

@@ -20,9 +20,9 @@ export default function SignInPage() {
         {/* Logo */}
         <div className="flex items-center justify-center space-x-2 mb-8">
           <div className="w-10 h-10 bg-gradient-to-r from-[hsl(47.9,95.8%,53.1%)] to-[hsl(36,100%,50%)] rounded-lg flex items-center justify-center">
-            <span className="text-slate-900 font-bold">H</span>
+            <span className="text-slate-900 font-bold">B</span>
           </div>
-          <span className="text-white font-semibold text-2xl">Horizon</span>
+          <span className="text-white font-semibold text-2xl">Bankly</span>
         </div>
 
         <Card className="bg-slate-800/50 border-slate-700">
@@ -36,7 +36,7 @@ export default function SignInPage() {
             {/* Github Button */}
             <Button
               variant="outline"
-              className="w-full border-slate-600 text-slate-300 hover:bg-slate-700 mb-4"
+              className="w-full border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground mb-4"
             >
               <Github className="mr-2 h-4 w-4" />
               Continue with Github

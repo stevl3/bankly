@@ -212,7 +212,7 @@ export default function BanksPage() {
 
                   <Button
                     variant="outline"
-                    className="w-full border-slate-600 text-slate-300 hover:bg-slate-700"
+                    className="w-full border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
                   >
                     View Details
                   </Button>

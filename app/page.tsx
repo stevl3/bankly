@@ -27,9 +27,9 @@ export default function LandingPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-r from-[hsl(47.9,95.8%,53.1%)] to-[hsl(36,100%,50%)] rounded-lg flex items-center justify-center">
-                <span className="text-slate-900 font-bold text-sm">H</span>
+                <span className="text-slate-900 font-bold text-sm">B</span>
               </div>
-              <span className="text-white font-semibold text-xl">Horizon</span>
+              <span className="text-white font-semibold text-xl">Bankly</span>
             </div>
             <div className="flex items-center space-x-4">
               <Link href="/sign-in">
@@ -61,7 +61,7 @@ export default function LandingPage() {
             <p className="text-xl text-slate-300 mb-8 max-w-3xl mx-auto">
               Track your bank accounts, credit cards, budgets, and financial
               health in one elegant, secure platform. Take control of your money
-              with Horizon.
+              with Bankly.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/sign-up">
@@ -73,7 +73,7 @@ export default function LandingPage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-slate-600 text-slate-300 hover:bg-slate-800"
+                className="border-primary/20 bg-primary/5 text-primary hover:bg-primary/10 hover:text-primary-foreground"
               >
                 Watch Demo
               </Button>
@@ -136,7 +136,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              Why Choose Horizon?
+              Why Choose Bankly?
             </h2>
             <p className="text-lg text-slate-300">
               Experience the future of personal finance management
@@ -200,7 +200,7 @@ export default function LandingPage() {
               Trusted by thousands of users
             </h2>
             <p className="text-xl text-slate-300">
-              See what our customers have to say about Horizon.
+              See what our customers have to say about Bankly.
             </p>
           </div>
 
@@ -216,7 +216,7 @@ export default function LandingPage() {
                   ))}
                 </div>
                 <p className="text-slate-300 mb-4">
-                  "Horizon has completely transformed how I manage my finances.
+                  "Bankly has completely transformed how I manage my finances.
                   The insights are incredible!"
                 </p>
                 <div className="flex items-center">
@@ -300,7 +300,7 @@ export default function LandingPage() {
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-slate-300">
-              Everything you need to know about Horizon.
+              Everything you need to know about Bankly.
             </p>
           </div>
 
@@ -338,10 +338,10 @@ export default function LandingPage() {
               className="bg-slate-700/50 border-slate-600 rounded-lg px-6"
             >
               <AccordionTrigger className="text-white hover:text-slate-300">
-                How much does Horizon cost?
+                How much does Bankly cost?
               </AccordionTrigger>
               <AccordionContent className="text-slate-300">
-                Horizon offers a free tier with basic features and a Pro plan at
+                Bankly offers a free tier with basic features and a Pro plan at
                 $9.99/month with advanced analytics, unlimited budgets, and
                 priority support.
               </AccordionContent>
@@ -371,14 +371,12 @@ export default function LandingPage() {
             <div className="col-span-1 md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-8 h-8 bg-gradient-to-r from-[hsl(47.9,95.8%,53.1%)] to-[hsl(36,100%,50%)] rounded-lg flex items-center justify-center">
-                  <span className="text-slate-900 font-bold text-sm">H</span>
+                  <span className="text-slate-900 font-bold text-sm">B</span>
                 </div>
-                <span className="text-white font-semibold text-xl">
-                  Horizon
-                </span>
+                <span className="text-white font-semibold text-xl">Bankly</span>
               </div>
               <p className="text-slate-400 mb-4 max-w-md">
-                Take control of your financial future with Horizon's
+                Take control of your financial future with Bankly's
                 comprehensive money management platform.
               </p>
             </div>
@@ -462,7 +460,7 @@ export default function LandingPage() {
 
           <div className="border-t border-slate-700/50 mt-8 pt-8 text-center">
             <p className="text-slate-400">
-              © 2024 Horizon. All rights reserved.
+              © 2024 Bankly. All rights reserved.
             </p>
           </div>
         </div>

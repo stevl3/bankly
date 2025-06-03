@@ -61,9 +61,9 @@ export function AppSidebar() {
       <SidebarHeader className="border-b border-slate-700 p-4">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-gradient-to-r from-[hsl(47.9,95.8%,53.1%)] to-[hsl(36,100%,50%)] rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-sm">H</span>
+            <span className="text-white font-bold text-sm">B</span>
           </div>
-          <span className="text-white font-semibold text-xl">Horizon</span>
+          <span className="text-white font-semibold text-xl">Bankly</span>
         </div>
       </SidebarHeader>
 
@@ -98,10 +98,10 @@ export function AppSidebar() {
                   <Avatar className="h-6 w-6">
                     <AvatarImage src="/placeholder.svg?height=24&width=24" />
                     <AvatarFallback className="bg-gradient-to-r from-[hsl(47.9,95.8%,53.1%)] to-[hsl(36,100%,50%)] text-slate-900 text-xs">
-                      ST
+                      DM
                     </AvatarFallback>
                   </Avatar>
-                  <span>Steven Thompson</span>
+                  <span>Demo Account</span>
                   <ChevronUp className="ml-auto h-4 w-4" />
                 </SidebarMenuButton>
               </DropdownMenuTrigger>
